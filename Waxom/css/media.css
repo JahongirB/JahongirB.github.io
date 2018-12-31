@@ -1,0 +1,293 @@
+@media (max-width: 1200px) {
+    /* height:595px */
+}
+
+@media (max-width: 992px) {
+    .header .navbar-nav:nth-child(2) {
+        margin-left: 0;
+    }
+    .header .navbar-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 834px) {
+    .header .carousel-item h2 {
+        font-size: 25px;
+    }
+    .header .carousel-item h1 {
+        font-size: 35px;
+    }
+    .header .carousel-item p {
+        font-size: 13px;
+    }
+    .header .carousel-item .btn {
+        padding: 12px 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    #btnToTop {
+        width: 50px;
+        height: 40px;
+        font-size: 35px;
+        bottom: 5%;
+        right: 5%;
+        z-index: 20;
+    }
+    #btnToTop i {
+        top: -9px;
+        left: 0;
+        right: 0;
+    }
+    #btnToTop::after {
+        content: '';
+        top: -50px;
+        right: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        border-right: 25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid #362f2d;
+    }
+    #btnToTop::before {
+        content: '';
+        right: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        border-right: 25px solid #362f2d;
+        border-left: 25px solid #362f2d;
+        border-bottom: 25px solid transparent;
+    }
+    .slider {
+        height: 480px;
+    }
+    .slider .img .left {
+        left: 0;
+        bottom: 0;
+    }
+    .slider .img .center {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 5;
+    }
+    .slider .img .right {
+        right: 0;
+        bottom: 0;
+    }
+    .slider .slide-control {
+        width: 15%;
+        font-size: 25px;
+        line-height: 480px;
+        z-index: 15;
+    }
+    .slider .slide-control#slide-prev {
+        left: 0;
+    }
+    .slider .slide-control#slide-next {
+        right: 0;
+    }
+    body {
+        min-width: 320px;
+        font-size: 16px;
+    }
+    p {
+        margin-bottom: 30px;
+    }
+    section {
+        padding: 70px 0;
+    }
+    h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 12px 30px;
+        box-shadow: 0 3px 0 #736357;
+    }
+    .carousel-indicators li {
+        width: 11px;
+        height: 11px;
+    }
+    .carousel-indicators li.active {
+        width: 15px;
+        height: 15px;
+        border: 2px solid #d3c1ad;
+    }
+    span.text {
+        font-size: 14px;
+    }
+    .header .menu-top {
+        z-index: 5;
+    }
+    .header .nav-link {
+        font-size: 14px;
+    }
+    .header .navbar-nav:nth-child(2) {
+        margin-left: 45px;
+    }
+    .header .carousel-item h2 {
+        font-size: 36px;
+    }
+    .header .carousel-item h1 {
+        font-size: 52px;
+    }
+    .header .carousel-caption {
+        width: 590px;
+        bottom: 27%;
+    }
+    .header .carousel-control-next-icon {
+        width: 40px;
+        height: 73px;
+    }
+    .header .carousel-control-prev-icon {
+        width: 40px;
+        height: 73px;
+    }
+    .services .ico {
+        margin-bottom: 20px;
+    }
+    .services h4 {
+        margin-bottom: 15px;
+    }
+    .services hr {
+        width: 70px;
+        height: 3px;
+    }
+    .advert {
+        padding: 40px 0 50px;
+    }
+    .advert h3 {
+        font-size: 28px;
+    }
+    .projects .nav .nav-link {
+        font-size: 14px;
+        border: 1px solid #ebebeb;
+        margin-right: 10px;
+        padding: 10px 26px;
+    }
+    .projects .tab-content {
+        padding: 40px 0;
+    }
+    .projects .item {
+        margin-bottom: 30px;
+    }
+    .projects .img .ico i {
+        font-size: 26px;
+        margin: 100px 10px;
+    }
+    .projects .des {
+        padding: 20px;
+    }
+    .projects .des::before {
+        top: -7%;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-bottom: 10px solid #fbfaf8;
+    }
+    .video .caption {
+        top: 35%;
+    }
+    .mobile ul li {
+        margin-bottom: 10px;
+    }
+    .mobile span {
+        width: 21px;
+        height: 21px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-right: 25px;
+        top: 5px;
+    }
+    .mobile .fa {
+        right: 20%;
+        top: 22%;
+    }
+    .counter .num {
+        font-size: 48px;
+    }
+    .counter .text {
+        font-size: 14px;
+    }
+    .counter hr {
+        width: 30px;
+        height: 2px;
+    }
+    .carousel-control {
+        margin-top: 40px;
+    }
+    .posts .carousel-indicators {
+        bottom: 20px;
+    }
+    .posts .carousel-control-next,
+    .posts .carousel-control-prev {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+        padding-left: 4px;
+        border: 2px solid #d4d4d4;
+    }
+    .posts .carousel-control-next {
+        padding-left: 6px;
+    }
+    .posts .img .date {
+        left: 5.5%;
+        top: 9%;
+    }
+    .posts .img .date .num {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    .posts .img .date .month {
+        font-size: 12px;
+        padding: 15% 20%;
+    }
+    .posts .des {
+        border: 1px solid #f8f8f8;
+        border-top: none;
+        padding: 26px 28px;
+    }
+    .posts .des h6 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .posts .des p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .posts .des .readMore {
+        font-size: 14px;
+    }
+    .posts .des .readMore i {
+        margin-left: 7px;
+    }
+    .brands {
+        padding: 135px 0;
+    }
+    .footer {
+        font-size: 14px;
+    }
+    .footer h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .footer .item {
+        padding: 16px 0;
+        border-bottom: 1px solid #252525;
+    }
+    .footer .widget .item {
+        margin-bottom: 13px;
+    }
+    .footer .date {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 13px;
+        padding: 40px 0 45px;
+    }
+}
